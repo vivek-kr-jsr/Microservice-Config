@@ -6,3 +6,6 @@ eureka:
     register-with-eureka: true
     service-url: 
       defaultZone: http://localhost:8086/eureka
+    
+server:
+   port: 8081
